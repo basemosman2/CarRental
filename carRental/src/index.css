@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+    @apply text-primary;
+  }
+
+  .smooth-transition {
+    transition: all 0.3s ease-in-out;
+  }
