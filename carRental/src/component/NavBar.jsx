@@ -12,7 +12,7 @@ const NavBar = () => {
     };
 
   return (
-    <div className=" xl:px-20 lg:px-14 px-10 py-10 flex items-center justify-between ">
+    <div className=" xl:px-20 lg:px-14 px-4 py-6 flex items-center justify-between ">
       <h1 className=" text-3xl font-bold">Car Rental</h1>
       <div className=" lg:flex flex-1 justify-center hidden">
         <NavLinks/>
