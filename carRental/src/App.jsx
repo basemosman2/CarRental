@@ -5,7 +5,7 @@ import { About, Contact, Home, VehicleModels, SignUp, SignIn } from "./pages";
 
 function App() {
   return (
-    <div className=" bg-mainBg h-screen">
+    <div className=" bg-mainBg h-full">
       <NavBar />
       <div className=" px-10">
         <Routes>
