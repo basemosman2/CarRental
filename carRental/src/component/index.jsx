@@ -3,6 +3,8 @@ import Header from './Header';
 import Hero from './Hero';
 import NavLinks from './NavLinks';
 import Booking from './Booking';
+import HowItWork from './HowItWork';
+
 
 
 export{
@@ -11,4 +13,5 @@ export{
     Hero,
     NavLinks,
     Booking,
+    HowItWork
 }

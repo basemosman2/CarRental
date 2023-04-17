@@ -5,12 +5,11 @@ import { animateScroll as scroll } from "react-scroll";
 import { TiTickOutline } from "react-icons/ti";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import HeroCar from "../assets/HeroCar.png";
-import City from "../assets/City.png";
 import Tire from "../assets/tire.png";
 
 const Hero = () => {
   return (
-    <div className=" flex justify-center items-center relative">
+    <div className=" flex justify-center items-center relative py-16">
       <div className=" flex flex-[0.75] md:items-start md:text-left flex-col justify-center items-center text-center mb-6">
         <p className=" text-xl font-semibold">Plan your trip now</p>
         <h1 className=" text-6xl font-bold mt-4 mb-8">
@@ -21,7 +20,7 @@ const Hero = () => {
           Rent the car of your dreams. Unbeatable prices, unlimited miles,
           flexible pick-up options and much more.
         </p>
-        <div className=" flex justify-center md:justify-start gap-4 flex-wrap my-8">
+        <div className=" flex justify-center md:justify-start gap-4 flex-wrap mt-8">
           <Link className=" bg-primary px-4 py-2 lg:px-8 lg:py-4 rounded-md font-bold shadow-lg hover:shadow-2xl hover:shadow-secondary shadow-secondary text-xl text-white capitalize flex items-center gap-4">
             book Ride
             <TiTickOutline className=" text-3xl" />
