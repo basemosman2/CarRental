@@ -5,7 +5,7 @@ import icon3 from "../assets/png-icons/icon3.png";
 
 const HowItWork = () => {
   return (
-    <div className=" flex flex-col items-center my-20">
+    <div className=" px-10 flex flex-col items-center my-20">
       <p className=" text-xl font-semibold text-black ">Plan your trip now</p>
       <h2 className=" text-5xl font-bold text-center my-4">
         Quick & easy car rental

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className=" bg-mainBg h-full">
       <NavBar />
-      <div className=" px-10">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

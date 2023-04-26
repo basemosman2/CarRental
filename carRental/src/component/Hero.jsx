@@ -9,7 +9,7 @@ import Tire from "../assets/tire.png";
 
 const Hero = () => {
   return (
-    <div className=" flex justify-center items-center relative py-16">
+    <div className=" px-10 flex justify-center items-center relative py-16">
       <div className=" flex flex-[0.75] md:items-start md:text-left flex-col justify-center items-center text-center mb-6">
         <p className=" text-xl font-semibold">Plan your trip now</p>
         <h1 className=" text-6xl font-bold mt-4 mb-8">

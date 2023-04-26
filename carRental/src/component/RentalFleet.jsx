@@ -58,7 +58,7 @@ const RentalFleet = () => {
   return (
     <div className=" flex flex-col justify-center items-center my-6">
       <p className="  text-black text-base leading-6">Vehicle Models</p>
-      <h2 className=" text-3xl text-black my-2 leading-6 font-medium">
+      <h2 className=" text-5xl text-black my-4 leading-6 font-medium">
         Our rental fleet
       </h2>
       <p className=" text-text text-center leading-5 lg:w-1/3">

@@ -5,6 +5,8 @@ import NavLinks from './NavLinks';
 import Booking from './Booking';
 import HowItWork from './HowItWork';
 import RentalFleet from './RentalFleet';
+import BannerSection from './BannerSection';
+import WhyChooseUs from './WhyChooseUs';
 
 
 
@@ -15,5 +17,7 @@ export{
     NavLinks,
     Booking,
     HowItWork,
-    RentalFleet
+    RentalFleet,
+    BannerSection,
+    WhyChooseUs
 }
