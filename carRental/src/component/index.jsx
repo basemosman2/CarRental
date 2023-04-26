@@ -4,6 +4,7 @@ import Hero from './Hero';
 import NavLinks from './NavLinks';
 import Booking from './Booking';
 import HowItWork from './HowItWork';
+import RentalFleet from './RentalFleet';
 
 
 
@@ -13,5 +14,6 @@ export{
     Hero,
     NavLinks,
     Booking,
-    HowItWork
+    HowItWork,
+    RentalFleet
 }
