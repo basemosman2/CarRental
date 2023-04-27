@@ -7,6 +7,10 @@ import Executive from "../assets/cars_Images/executive.png";
 import ExecutiveEstate from "../assets/cars_Images/executive-estate.png";
 import NineSeater from "../assets/cars_Images/nine-seater.png";
 
+import Person1 from "../assets/persons/person1.jpg";
+import Person2 from "../assets/persons/person2.jpg";
+import Person3 from "../assets/persons/person3.jpg";
+
 export const carData = [
   {
     id: 0,
@@ -143,6 +147,37 @@ export const carData = [
     transmission: "Automatic",
     fuel: "Diesel",
     bag: "6",
+  },
+];
+
+export const PersonsReview = [
+  {
+    id: 0,
+    name: "John",
+    message:"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable.",
+    img: Person1,
+    city:'Newcastle',
+  },
+  {
+    id: 1,
+    name: "Smith",
+    message:"Easy to rent a van. Staff friendly, polite and efficient. Would rent here again.",
+    img: Person2,
+    city:'Sunderland',
+  },
+  {
+    id: 3,
+    name: "Joe",
+    message:"Friendly and efficient staff made the process of hiring the car easy",
+    img: Person3,
+    city:'Leeds',
+  },
+  {
+    id: 4,
+    name: "Smith",
+    message:"Easy to rent a van. Staff friendly, polite and efficient. Would rent here again.",
+    img: Person2,
+    city:'Sunderland',
   },
 ];
 

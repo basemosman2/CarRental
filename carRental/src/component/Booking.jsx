@@ -20,7 +20,7 @@ const Booking = () => {
 
   return (
     <div
-      className={`ml-10 px-4 py-6 bg-white rounded-lg relative -top-[50%] lg:w-2/3`}
+      className={`lg:ml-10 px-4 mx-6 py-6 bg-white rounded-lg relative -top-[50%] lg:w-2/3`}
     >
       <img
         src={bookBg}
@@ -95,8 +95,7 @@ const Booking = () => {
           />
         </div>
         <button className=" bg-primary py-4 rounded-md text-white text-xl font-semibold tracking-wider">
-          {" "}
-          Search{" "}
+          Search
         </button>
       </div>
     </div>

@@ -7,6 +7,7 @@ import HowItWork from './HowItWork';
 import RentalFleet from './RentalFleet';
 import BannerSection from './BannerSection';
 import WhyChooseUs from './WhyChooseUs';
+import Testimonials from './Testimonials';
 
 
 
@@ -19,5 +20,6 @@ export{
     HowItWork,
     RentalFleet,
     BannerSection,
-    WhyChooseUs
+    WhyChooseUs,
+    Testimonials,
 }

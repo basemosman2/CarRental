@@ -1,8 +1,8 @@
 import React from "react";
 import GroupCar from "../assets/cars_Images/groupCar.png";
-import PriceIcon from "../assets/cars_Images/priceIcon.png";
-import CrossCar from "../assets/cars_Images/crossCar.png";
-import HiddenPrice from "../assets/cars_Images/hiddenPrice.png";
+import PriceIcon from "../assets/png-icons/priceIcon.png";
+import CrossCar from "../assets/png-icons/crossCar.png";
+import HiddenPrice from "../assets/png-icons/hiddenPrice.png";
 
 const WhyChooseUs = () => {
   return (
