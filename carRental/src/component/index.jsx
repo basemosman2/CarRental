@@ -8,6 +8,8 @@ import RentalFleet from './RentalFleet';
 import BannerSection from './BannerSection';
 import WhyChooseUs from './WhyChooseUs';
 import Testimonials from './Testimonials';
+import FAQs from './FAQs';
+import DownloadSection from './DownloadSection';
 
 
 
@@ -22,4 +24,6 @@ export{
     BannerSection,
     WhyChooseUs,
     Testimonials,
+    FAQs,
+    DownloadSection
 }
