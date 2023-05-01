@@ -25,7 +25,7 @@ const Hero = () => {
             book Ride
             <TiTickOutline className=" text-3xl" />
           </Link>
-          <Link className=" hover:bg-transparent hover:text-black bg-black border border-black px-4 py-2 lg:px-8 lg:py-4 rounded-md font-bold shadow-lg hover:shadow-2xl hover:shadow-secondary shadow-secondary text-xl text-white capitalize flex items-center gap-2">
+          <Link className=" hover:bg-transparent hover:text-black bg-black border border-black px-4 py-2 lg:px-8 lg:py-4 rounded-md font-bold shadow-lg  text-xl text-white capitalize flex items-center gap-2">
             Learn more
             <MdKeyboardArrowRight className=" text-3xl" />
           </Link>

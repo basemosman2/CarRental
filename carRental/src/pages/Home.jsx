@@ -8,7 +8,8 @@ import {
   WhyChooseUs,
   Testimonials,
   FAQs,
-  DownloadSection
+  DownloadSection,
+  Footer
 } from "../component";
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Testimonials />
       <FAQs/>
       <DownloadSection/>
+      <Footer/>
     </div>
   );
 };

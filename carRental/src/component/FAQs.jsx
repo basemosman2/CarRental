@@ -30,10 +30,10 @@ const FAQs = () => {
   };
 
   return (
-    <div className=" py-24 bg-white bg-[url('./assets/cars_Images//FAQ-bg.png')] bg-no-repeat bg-left">
+    <div className=" py-24 px-10 bg-white bg-[url('./assets/cars_Images//FAQ-bg.png')] bg-no-repeat bg-left-bottom">
       <div className=" text-center">
         <p className="  text-black text-xl leading-6 font-semibold">FAQ</p>
-        <h2 className=" text-5xl text-black my-6 leading-12 md:leading-6 font-medium">
+        <h2 className=" text-3xl md:text-5xl text-black my-4 leading-12 md:leading-6 font-medium">
           Frequently Asked Questions
         </h2>
         <p className=" text-text mx-auto text-center leading-6 lg:w-1/2">
@@ -41,7 +41,7 @@ const FAQs = () => {
           Website: Answers to Common Concerns and Inquiries.
         </p>
       </div>
-      <div className="w-3/5 mx-auto mt-12">
+      <div className="w-4/5 md:w-3/5 mx-auto mt-12">
         <div className="space-y-6">
           {questions.map((q, index) => (
             <div key={index}>
