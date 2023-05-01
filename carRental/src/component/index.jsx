@@ -11,6 +11,7 @@ import Testimonials from './Testimonials';
 import FAQs from './FAQs';
 import DownloadSection from './DownloadSection';
 import Footer from './Footer';
+import HeroPages from './HeroPages';
 
 
 
@@ -28,4 +29,5 @@ export{
     FAQs,
     DownloadSection,
     Footer,
+    HeroPages,
 }

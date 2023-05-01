@@ -43,13 +43,13 @@ const NavBar = () => {
         />
       ) : (
         <AiOutlineClose
-          className=" lg:hidden text-3xl cursor-pointer relative z-20 text-white"
+          className=" lg:hidden text-3xl cursor-pointer fixed top-8 right-4  z-50 text-white"
           onClick={() => setMobileMenuOpen(false)}
         />
       )}
       <div
-        className={` absolute top-0 w-full h-screen z-10 bg-black opacity-95 backdrop-blur-md text-white flex flex-col items-center justify-center smooth-transition ${
-          mobileMenuOpen ? " -left-0" : " -left-full"
+        className={` fixed bottom-0 top-0 z-40 bg-black opacity-100 backdrop-blur-md text-white flex flex-col items-center justify-center smooth-transition ${
+          mobileMenuOpen ? " left-0 right-0" : " -left-full "
         }`}
       >
         <NavLinks menuOpen="flex-col" closeMenu={closeMenu} />
