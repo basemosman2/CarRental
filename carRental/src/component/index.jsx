@@ -12,6 +12,9 @@ import FAQs from './FAQs';
 import DownloadSection from './DownloadSection';
 import Footer from './Footer';
 import HeroPages from './HeroPages';
+import CarCard from './CarCard';
+import RadioFilter from './RadioFilters';
+import DCard from './DCard';
 
 
 
@@ -30,4 +33,8 @@ export{
     DownloadSection,
     Footer,
     HeroPages,
+    CarCard,
+    RadioFilter,
+    DCard
+
 }
