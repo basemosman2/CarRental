@@ -7,7 +7,7 @@ const NavLinks = ({menuOpen, closeMenu}) => {
     <nav>
           <ul className={` flex gap-8 text-lg font-semibold ${menuOpen}  capitalize`}>
             <li className="  hover:text-primary">
-              <NavLink to="/" end onClick={closeMenu}>
+              <NavLink to="/" end onClick={closeMenu} >
                 Home
               </NavLink>
             </li>
