@@ -1,7 +1,6 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { NavBar } from "./component";
-import { About, Contact, Home, VehicleModels, SignUp, SignIn } from "./pages";
+import { About, Contact, Home, VehicleModels,Checkout } from "./pages";
 
 function App() {
   return (
@@ -13,8 +12,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/vehicleModel" element={<VehicleModels />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<SignIn />} />
+          <Route path="/vehicleModel/checkout" element={<Checkout />} />
         </Routes>
       </div>
     </div>

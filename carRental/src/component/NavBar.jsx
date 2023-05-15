@@ -24,18 +24,6 @@ const NavBar = () => {
       <div className=" lg:flex flex-1 justify-center hidden">
         <NavLinks />
       </div>
-      <div className=" lg:flex justify-end gap-4 hidden">
-        <button className=" font-semibold text-lg hover:text-primary">
-          <NavLink to="/signup" className={(active) => active && ""}>
-            Sign Up
-          </NavLink>
-        </button>
-        <button className=" bg-primary py-3 px-6  text-lg rounded-lg text-white font-semibold hover: shadow-xl hover:shadow-secondary cursor-pointer ">
-          <NavLink to="/signin" className={(active) => active && ""}>
-            Sing In
-          </NavLink>
-        </button>
-      </div>
       {!mobileMenuOpen ? (
         <BiMenuAltRight
           className=" lg:hidden text-3xl cursor-pointer"
@@ -53,26 +41,6 @@ const NavBar = () => {
         }`}
       >
         <NavLinks menuOpen="flex-col" closeMenu={closeMenu} />
-        <div className=" mt-10 flex gap-4">
-          <button className=" font-semibold text-lg hover:text-primary">
-            <NavLink
-              to="/signup"
-              className={(active) => active && ""}
-              onClick={closeMenu}
-            >
-              Sign Up
-            </NavLink>
-          </button>
-          <button className=" bg-primary py-3 px-6  text-lg rounded-lg text-white font-semibold hover: shadow-sm hover:shadow-secondary cursor-pointer ">
-            <NavLink
-              to="/signin"
-              className={(active) => active && ""}
-              onClick={closeMenu}
-            >
-              Sing In
-            </NavLink>
-          </button>
-        </div>
       </div>
     </div>
   );

@@ -1,13 +1,12 @@
 import React from "react";
-
 import Logo from "../assets/png-icons/logo.png";
-
 import { BsFillTelephoneFill, MdEmail, FaLocationArrow } from "react-icons/all";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className=" bg-white text-black py-12">
-      <div className="container mx-auto px-4 md:px-12">
+      <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row flex-wrap justify-between gap-4">
           <div className="flex flex-col items-left gap-4 mb-4 md:mb-0">
             <img src={Logo} alt="Logo" className="w-12 mr-4" />
@@ -38,18 +37,18 @@ const Footer = () => {
           </div>
           <div className="flex flex-col">
             <p className="mb-2 font-bold text-2xl">Pages</p>
-            <a href="#" className="mb-1 text-md hover:text-primary">
+            <Link to="/" className="mb-1 text-md hover:text-primary">
               Home
-            </a>
-            <a href="#" className="mb-1 text-md hover:text-primary">
+            </Link>
+            <Link to="/about" className="mb-1 text-md hover:text-primary">
                 About
-            </a>
-            <a href="#" className="mb-1 text-md hover:text-primary">
+            </Link>
+            <Link to="/contact" className="mb-1 text-md hover:text-primary">
               Contact
-            </a>
-            <a href="#" className="mb-1 text-md hover:text-primary">
+            </Link>
+            <Link to="/vehicleModel" className="mb-1 text-md hover:text-primary">
                 Vehicles Model
-            </a>
+            </Link>
           </div>
           <div className="flex flex-col">
             <p className="mb-2 font-bold text-2xl">Working Hours</p>
@@ -61,12 +60,12 @@ const Footer = () => {
             <form className=" flex flex-col justify-left items-left">
               <input
                 type="email"
-                className="mb-2 px-2 py-4 rounded-md w-1/2 md:w-full border border-gray-400 text-gray-800"
+                className="mb-2 px-2 py-4 rounded-md w-3/4 md:w-full border border-gray-400 text-gray-800"
                 placeholder="Enter your email"
               />
               <button
                 type="submit"
-                className="bg-primary w-1/2 md:w-full  text-white px-4 py-4 rounded-md"
+                className="bg-primary w-3/4 md:w-full  text-white px-4 py-4 rounded-md"
               >
                 Subscribe
               </button>

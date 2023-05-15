@@ -18,9 +18,6 @@ const NavLinks = ({menuOpen, closeMenu}) => {
               <NavLink to="/vehicleModel" onClick={closeMenu}>Vehicle Models</NavLink>
             </li>
             <li className="  hover:text-primary">
-              <a href="/#Testimonials" onClick={closeMenu}>Testimonials</a>
-            </li>
-            <li className="  hover:text-primary">
               <NavLink to="/contact" onClick={closeMenu}>contact</NavLink>
             </li>
           </ul>

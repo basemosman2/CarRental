@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Booking style=' w-3/5 -top-10' cols='md:grid-cols-2'/>
+      <Booking style=' lg:w-3/5 -top-10' cols='md:grid-cols-2'/>
       <HowItWork />
       <RentalFleet />
       <BannerSection />

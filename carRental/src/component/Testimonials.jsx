@@ -29,7 +29,7 @@ const Testimonials = () => {
   return (
     <div className="lg:px-10 px-6 py-24 text-center">
       <p className="  text-black text-base leading-6">Reviewed by People</p>
-      <h2 className=" text-5xl text-black my-6 leading-6 font-medium">
+      <h2 className=" text-5xl text-black my-6 leading-12 lg:leading-6 font-medium">
       Client's Testimonials
       </h2>
       <p className=" text-text mx-auto text-center leading-6 lg:w-1/2">

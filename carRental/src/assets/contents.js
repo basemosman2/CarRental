@@ -190,14 +190,14 @@ export const PersonsReview = [
 ];
 
 export const cities = [
-    { name: "London" },
-    { name: "Manchester" },
-    { name: "Birmingham" },
-    { name: "Liverpool" },
-    { name: "Glasgow" },
-    { name: "Leeds" },
-    { name: "Bristol" },
-    { name: "Sheffield" },
-    { name: "Edinburgh" },
-    { name: "Cardiff" },
+    { name: "LHR Airport (Heathrow)" },
+    { name: "LGW Airport (Gatwick)" },
+    { name: "STN AirPort (Stansted)" },
+    { name: "MAN Airport (Manchester)" },
+    { name: "BHX Airport (Birmingham)" },
+    { name: "LBA Airport (Leeds)" },
+    { name: "EDI Airport (Edinburgh)" },
+    { name: "BFS Airport (Belfast)" },
+    { name: "NCL Airport (Newcastle)" },
+    { name: "GLA Airport (Glasgow)" },
 ];

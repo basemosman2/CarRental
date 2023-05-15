@@ -2,14 +2,12 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import VehicleModels from './VehicleModels';
-import SignUp from './SignUp';
-import SignIn from './SignIn';
+import Checkout from './Checkout';
 
 export {
     Home,
     About,
     Contact,
     VehicleModels,
-    SignUp,
-    SignIn
+    Checkout
 }
