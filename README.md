@@ -6,13 +6,13 @@ from a wide selection of vehicles that vary in make, model, size, and price.
 
 👉👉 Live Demo: [Live Demo](https://irentcar.netlify.app/)
 
-# Build with:
+## Tech Stack
 
-React Js
+**frontend:** React, TailwindCSS
 
 # Screenshots of the Project 📸
 
 
                                                    # Home Page 🏡
-                                                   
-                                                   ![alt text](http://url/to/img.png)
+
+![App Screenshot](https://github.com/basemosman2/CarRental/blob/master/carRental/src/assets/irentcar.png?raw=true)
